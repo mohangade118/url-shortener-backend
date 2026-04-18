@@ -10,6 +10,7 @@ services:
       - ./backend:/var/www
     networks:
       - url_shortener_network
+    user: "${UID}:${GID}"
 
   nginx:
     image: nginx:latest
@@ -23,6 +24,8 @@ services:
       - app
     networks:
       - url_shortener_network
+
+
 
   db:
     image: mysql:8.0
