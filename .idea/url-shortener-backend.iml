@@ -68,6 +68,8 @@
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/web-profiler-bundle" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/yaml" />
       <excludeFolder url="file://$MODULE_DIR$/backend/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/asset" />
+      <excludeFolder url="file://$MODULE_DIR$/backend/vendor/symfony/webpack-encore-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
